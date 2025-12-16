@@ -41,9 +41,10 @@ public class MarlowClient implements ClientModInitializer {
     public static final MarlowSystem system = MarlowSystem.INSTANCE;
 
     // The Client name
-    private static final String name = "MarlowClient";
+    private static final String name = "Striker Client";
     // Chat Prefix
-    private static final String prefix = "\2476\247l[\247l\247f\247lM\2479\247la\247a\247lr\2472\247ll\247b\247lo\2473\247lw \247c\247lC\2474\247ll\247d\247li\2475\247le\247f\247ln\2471\247lt\2476\247l] \247a";
+    private static final String prefix = "\2479\247l[\2479\247lS\2479\247lt\2473\247lr\2473\247li\247b\247lk\247b\247le\247f\247lr \247f\247lC\247f\247ll\247f\247li\247f\247le\247f\247ln\247f\247lt\247f\247l] \247f";
+
     // Command prefix
     private static  String commandPrefix = "#";
     // Commands Count
@@ -54,7 +55,7 @@ public class MarlowClient implements ClientModInitializer {
     public AutoUpdate autoUpdate;
 
 
-    public static final String KEY_CATEGORY = "Marlow Client";
+    public static final String KEY_CATEGORY = "Striker Client";
     public static final KeyBinding KEY = KeyBindingHelper.registerKeyBinding(new KeyBinding(
             "Open VapeGUI Keybind",
             InputUtil.Type.KEYSYM,
